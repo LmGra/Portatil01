@@ -1,0 +1,57 @@
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Ejemplo 3.2"/>
+	<meta name="author" content="Luis Miguel"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie-edge">
+	<title>Imágenes, enlaces y rutas</title>
+</head>
+
+<body>
+<!-- <img> para insertar imagen, tiene atributos
+src-indica la dirección de la imagen
+alt-texto alternativo de la imagen
+width-anchura de la imagen en pixel o %
+height- altura de la imagen en pixel o % -->
+
+<!-- La ruta puede ser relativa, absoluta o mediante url -->
+
+<!-- Rutas -->
+
+<img alt="Logo de OpenWebinars" src="img/openwebinars-logo.jpg"><!--relativa-->
+<img alt="Logo de OpenWebinars" src="/home/tito/RepositorioGit/1.3/img/openwebinars-logo.jpg"><!--absoluta, si no aparece en otro pc es normal.-->
+<img alt="Logo de OpenWebinars" src="https://www.linuxadictos.com/wp-content/uploads/openwebinars-logo.jpg"><!-- url-->
+
+<!-- Dimensiones -->
+
+<img height="150px" alt="Logo de OpenWebinars" src="img/openwebinars-logo.jpg">
+<img width="150px" alt="Logo de OpenWebinars" src="img/openwebinars-logo.jpg">
+
+<img height="200px" width="50px" alt="Logo de OpenWebinars" src="img/openwebinars-logo.jpg">
+
+<!-- Figures contiene la imagen y un texto explicativo(Figcaption) -->
+
+<figure>
+	<img alt="Logo de OpenWebinars" src="img/openwebinars-logo.jpg">
+	<figcaption>Logotipo de OpenWebinars con la etiqueta figure</figcaption>
+</figure>
+
+<!-- Hipertexto, son enlaces <a> -->
+
+<p><a href="http://www.openwebinars.net">Enlace a la página en la misma</a></p>
+<p><a href="http://www.openwebinars.net" target="_blank">Enlace a la página en pestaña</a></p>
+
+<!-- Enlace mediante imagen -->
+<a href="http://www.openwebinars.net">
+	<img width="100px" alt="Logo de OpenWebinars" src="img/openwebinars-logo.jpg">
+</a>
+
+<!-- Enlace interno <a href="#contacto">Contacto</a>-->
+<!-- Redirige a section id="contacto"-->
+
+
+</body>
+
+</html>
