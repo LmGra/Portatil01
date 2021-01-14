@@ -1,0 +1,163 @@
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Ejemplo 3.6"/>
+	<meta name="author" content="Luis Miguel"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie-edge">
+	<title>Tablas</title>
+</head>
+<body>
+<!-- Tablas simples-->
+<!-- <table> tabla, <tr> fila, <td> columna, <th> columna negrilla y centrada -->
+<table>
+	<tr>
+		<th>Nombre</th>
+		<th>Apellidos</th>
+		<th>Dirección</th>
+		<th>Teléfono</th>
+		<th>Email</th>
+	</tr>
+	<tr>
+		<td>LuisMiguel</td>
+		<td>GarciaRincon</td>
+		<td>Cádiz</td>
+		<td>123456789</td>
+		<td>email@gmail.com</td>
+	</tr>
+	<tr>
+		<td>Pepe</td>
+		<td>Pérez</td>
+		<td>Málaga</td>
+		<td>987654321</td>
+		<td>email1@gmail.com</td>
+	</tr>
+	<tr>
+		<td>Pepa</td>
+		<td>Pig</td>
+		<td>Huelva</td>
+		<td>147852369</td>
+		<td>email2@gmail.com</td>
+	</tr>
+	<tr>
+		<td>Rodolfo</td>
+		<td>De los Santos</td>
+		<td>Cancún</td>
+		<td>159357826</td>
+		<td>email3@gmail.com</td>
+	</tr>
+
+</table>
+
+<!-- Tabla completa -->
+<!-- <colgroup> agrupa columnas para aplicarles estilo, <caption> título que se muestra sobre la tabla, <thead> distingue fila cabecera de la tabla, <tbody> lo mismo en cuerpo de tabla, <tfoot> pie de tabla. -->
+
+<table>
+	<colgropu>
+		<col span ="3" style="background-color:grey"><!--span 3 coge las 3 primeras columnas para aplicarles ese estilo-->
+		<col style="background-color:yellow">
+		<col style="background-color:green">
+	</colgroup>
+	<caption>Título de la tabla</caption>
+	<thead>
+		<tr>
+			<th>Nombre</th>
+			<th>Apellidos</th>
+			<th>Dirección</th>
+			<th>Teléfono</th>
+			<th>Email</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>LuisMiguel</td>
+			<td>GarciaRincon</td>
+			<td>Cádiz</td>
+			<td>123456789</td>
+			<td>email@gmail.com</td>
+		</tr>
+		<tr>
+			<td>Pepe</td>
+			<td>Pérez</td>
+			<td>Málaga</td>
+			<td>987654321</td>
+			<td>email1@gmail.com</td>
+		</tr>
+		<tr>
+			<td>Pepa</td>
+			<td>Pig</td>
+			<td>Huelva</td>
+			<td>147852369</td>
+			<td>email2@gmail.com</td>
+		</tr>
+		<tr>
+			<td>Rodolfo</td>
+			<td>De los Santos</td>
+			<td>Cancún</td>
+			<td>159357826</td>
+			<td>email3@gmail.com</td>
+		</tr>	
+	</tbody>
+	<tfoot>
+		<tr>
+			<td>Este es el pie de la tabla, donde escribo para extenderla.</td>
+		</tr>
+	</tfoot>
+</table>
+<!-- La altura y anchura de una columna y fila viene determinado por el número más alto -->
+<!-- <rowspan> atributo para celda para decir cuantas filas va a ocupar -->
+<!-- <colspan> atributo para celda para decir cuantas columnas va a ocupar -->
+
+<table>
+	<caption>Horario Clases</caption>
+	<thead>
+		<tr>
+			<th>Horas</th>
+			<th>Lunes</th>
+			<th>Martes</th>
+			<th>Miércoles</th>
+			<th>Jueves</th>
+			<th>Viernes</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>8:00</td>
+			<td rowspan="2">Matemáticas</td>
+			<td>Lengua</td>
+			<td>Inglés</td>
+			<td colspan="2">Ciencias</td>
+		</tr>
+		<tr>
+			<td>9:00</td>
+			<td>Historia</td>
+			<td>Ciencias</td>
+			<td>Matemáticas</td>
+			<td>Lengua</td>
+		</tr>
+		<tr>
+			<td>10:00</td>
+			<th colspan="5">Recreo</th>
+		</tr>
+		<tr>
+			<td>10:30</td>
+			<td>Inglés</td>
+			<td rowspan="2">Ciencias</td>
+			<td>Matemáticas</td>
+			<td>Lengua</td>
+			<td>Historia</td>
+		</tr>
+		<tr>
+			<td>11:30</td>
+			<td>Historia</td>
+			<td>Ciencias</td>
+			<td>Matemáticas</td>
+			<td>Inglés</td>
+		</tr>
+	</tbody>
+</table>
+
+</body>
+
+</html>
