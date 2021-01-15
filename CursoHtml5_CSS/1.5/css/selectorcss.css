@@ -1,0 +1,40 @@
+*{
+	font-family:"Courier New",Courier,monospace;
+}
+
+#principal{
+	background-color:grey;
+}
+
+h1.conclase{
+	color:blue;
+}
+
+h2,
+h3{
+	border:1px solid green;
+}
+
+li{
+	color:red;
+}
+
+li li{
+	color:orange;
+}
+
+p > img{
+	border:5px solid black;
+}
+
+img[alt="segunda"]{
+	border:5px solid red;
+}
+
+p ~ h3.antes{
+	background-color:pink;
+}
+
+p + h3{
+	background-color:blue;
+}

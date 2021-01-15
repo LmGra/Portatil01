@@ -1,0 +1,55 @@
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Ejemplo 6.4"/>
+	<meta name="author" content="Luis Miguel"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie-edge">
+	<title>Selectores CSS</title>
+
+	<!-- Para cambiar los diseños podemos añadirlo en una etiqueta, pero entonces deberíamos cambiarlo en todas ellas en nuestra página,
+	también podríamos utilizar la etiqueta style, pero sería igual.
+	Podemos utilizar import, pero primero debería cargar nuestra hoja de estilos y podría tardar si es grande.
+	Por último la más eficaz es utilizando link, como en este caso.-->
+
+	<link rel="stylesheet" type="text/css" href="css/selectorcss.css">
+
+
+</head>
+<body>
+	<!-- seleccion con identificador -->
+	<p id="principal">
+		Primera prueba utilizando un selector #id
+	</p>
+
+	<!-- seleccionado con elementos clase -->
+	<h1>Normal</h1>
+	<h1 class="conclase">Con clase</h1>
+
+	<!-- Selección de varios elementos -->
+	<h2>Elemento con etiqueta h2</h2>
+	<h3>Elemento con etiqueta h3</h3>
+
+	<!-- Dentro de otro -->
+	<ul>
+		<li>Primero</li>
+		<li>Segundo
+			<ul>
+				<li>2.1</li>
+				<li>2.2</li>
+			</ul>
+		</li>
+	</ul>
+
+	<!--Hijo directo -->
+	<h3 class="antes">Antes</h3>
+
+	<p>
+		<img width="100px" src="../1.3/img/openwebinars-logo.jpg"/>
+		<span><img width="100px" src="../1.3/img/openwebinars-logo.jpg" alt="segunda"/></span>
+	</p>
+
+	<h3>Después</h3>
+</body>
+</html>
