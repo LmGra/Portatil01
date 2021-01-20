@@ -1,0 +1,44 @@
+table{
+	text-align:center;
+ 	border-collapse: collapse;
+ 	margin: 0px auto;
+ 	width: 50%;
+}
+img{
+	width:60px;
+	height:60px;
+}
+
+.col1 {
+  background-color: red;
+  color: white;
+}
+
+.fil2 {
+  background-color: grey;
+  font-size: 2em;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#li li {
+  color: rgb(255,0,0);
+}
+.marg1 {
+  padding-top: 15px;
+}
+
+#amarillo {
+  background-color: yellow;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+td,th {
+  border: 1px solid black;
+}
+
+[colspan="2"],
+[colspan="3"] {
+  background-color: #8c7fb8;
+}
