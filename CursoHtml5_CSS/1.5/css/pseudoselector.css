@@ -1,0 +1,48 @@
+table {
+	border-collapse:collapse;
+}
+
+td,
+th {
+	border:1px solid black;
+}
+
+tbody tr td:first-child{/*Primera columna*/
+	background-color: green;
+}
+
+tbody tr:nth-child(3) th:nth-child(2){ /*Tercera celda de la segunda fila del cuerpo de la tabla*/
+	background-color: yellow;
+}
+/*Tamaño del primer carácter de la primera fila del thead x2*/
+thead tr th:first-letter{
+	font-size:2em;
+}
+
+/*Ultimas celas de la última fila x2 al pasar el ratón*/
+tr th:last-child:hover,
+tr td:last-child:hover{
+	font-size:2em;
+}
+
+a{/*Sin linea*/
+	text-decoration: none;
+}
+
+a:link{/*Enlace no visitado*/
+	color:green;
+}
+
+a:visited{/*Enlace visitado*/
+	color:red;
+}
+
+input:required{/*Separacion entre borde y elemento de color rojo*/
+border:1px solid red;
+padding:10px;
+}
+
+label:after{/*Añade el asterisco rojo tras la etiqueta*/
+	color:red;
+	content:"*";
+}
