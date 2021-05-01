@@ -1,0 +1,10 @@
+En este apartado crearemos un Superusuario en nuestro proyecto de Django.
+
+Con el comando que se puede visualizar en la carpeta "Imágenes" (python manage.py createsuperuser)
+crearemos el superusuario.
+
+Tras la creación volvemos a abrir el servidor y accedemos con la credencial recientemente creada.
+
+Tras este paso cambiaremos el idioma de nuestra página cambiando la linea LANGUAGE_CODE del archivo setting a "es".
+
+Tras todo esto crearemos desde el navegador un nuevo usuario.
