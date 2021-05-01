@@ -1,0 +1,13 @@
+En el primer video nos enseña Karlita a descargar e instalar Pip, python, Django y trabajar en un entorno virtual.
+
+En la carpeta imágenes se visualizan los comandos realizados para la instalación de pip en python3 y la creación del entorno virtual.
+
+En la imagen de pip install virtualenv aparece el mensaje de que ya estaba instalado, ya que lo había realizado haciendo el proyecto con anterioridad.
+
+En la carpeta test_env aparecerá el entorno virtual referente al video 1.
+
+Para la utilización del entorno virtual hay que hacer uso (En Linux) de source /bin/activate en dicho directorio virtual.
+
+Una vez dentro del entorno virtual instalamos con pip Django (En este caso es la versión 3.2).
+
+
