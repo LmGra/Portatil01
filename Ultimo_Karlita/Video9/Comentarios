@@ -1,0 +1,8 @@
+Para este apartado tendremos que realizaremos una función en views.py como se muestra en las imágenes.
+
+En pd110, urls.py copiaremos la linea "path('', views.home, name='home')" que aparece en comentarios como ejemplo y la pegaremos dentro de  urlpatterns y editaremos los parámetros a inicio.
+
+Para poder utilizar esto tendremos que importar nuestras views.
+
+Una vez hecho esto nos dirá que nuestra plantilla no existe.
+
