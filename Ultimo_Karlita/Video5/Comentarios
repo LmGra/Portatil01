@@ -1,0 +1,3 @@
+En este apartado crearemos la primera aplicación.
+
+Una vez hecho boletin con el comando que se muestra en las Imágenes tendremos que registrarlo en setting.py añadiendolo en el apartado installed_apps.
