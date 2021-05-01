@@ -1,0 +1,8 @@
+Primero comenzaremos creando nuestro primer modelo.
+Para ello deberemos tener un documento.py llamado models.py el cual editaremos como aparece en las Imágenes.
+Cada vez que se cambie un modelo debemos hacer un migration.
+
+Tras varios errores recordad cambiar los scripst apps, settings y models para que queden tal que así antes de hacer un migration.(Carpeta Imágenes.)
+
+makemigration busca todas las modificafciones que hemos realizado en nuestros modelos y los empaqueta.
+migrate envia las modificaciones a la base de datos.
