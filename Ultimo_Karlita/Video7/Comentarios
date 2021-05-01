@@ -1,0 +1,7 @@
+En este apartado crearemos objetos en python y lo visualizaremos en el shell y registraremos model en Admin.
+
+En boletin, admin.py registraremos nuestro modelo, para ello primero lo importaremos y luego lo registramos.
+
+No es aconsejable dejar un campo con espacio en blanco.
+
+
