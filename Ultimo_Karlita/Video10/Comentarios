@@ -1,0 +1,7 @@
+Para arreglar el problema con las plantillas tendremos que configurar de pd110 setting.py tal y como aparecen en la imagen.
+
+En DIRS añadir 'DIRS': [BASE_DIR, "templates"]
+
+Crearemos una carpeta dentro de pd110 llamado templates y dentro de esta un documento html llamado inicio con el contenido de Hola mundo.
+
+
