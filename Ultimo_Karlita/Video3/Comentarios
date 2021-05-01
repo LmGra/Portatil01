@@ -1,0 +1,6 @@
+En este apartado realizaremos las migraciones.(Cuando dice que tiene migraciones no aplicadas como en las imágenes del vídeo anterior).
+Se utiliza en esencia para sincronizar el proyecto con la base de dato.
+
+Para la realización del migrate haremos uso del comando mostrado en la imagen.
+
+Tras la migración acoplaremos al sublime text nuestro proyecto.
