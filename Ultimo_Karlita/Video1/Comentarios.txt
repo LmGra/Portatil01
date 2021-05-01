@@ -10,4 +10,4 @@ Para la utilización del entorno virtual hay que hacer uso (En Linux) de source 
 
 Una vez dentro del entorno virtual instalamos con pip Django (En este caso es la versión 3.2).
 
-
+Por último creamos test_project como se muestra en la captura.

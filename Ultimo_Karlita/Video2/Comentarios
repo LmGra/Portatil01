@@ -1,0 +1,5 @@
+En este caso crearemos un nuevo proyecto, para ello creamos una carpeta con el nombre "pd110" y nos dirigimos hacia ella, una vez dentro creamos un entorno virtual como en el vídeo anterior y trabajaremos en él tras activarlo.
+
+Volveremos a instalar django para trabajar con él en el entorno virtual.(En este caso yo utilizaré la versión última 3.2)
+
+Creamos el proyecto con el mismo nombre de la carpeta "pd110", para no tener problemas con el mismo nombre le cambiaremos a scr y nos dirigimos a dicha carpeta, una vez dentro arrancaremos el servidor con uso del comando que se muestra en la carpeta de imágenes y accederemos a la dirección utilizando el navegador para comprobar que funciona.
