@@ -1,0 +1,4 @@
+En este apartado necesitaremos validar los datos que deben cumplir los campos.
+Para ello escribimos en forms.py nuestras propias validaciones.
+
+En la primera imagen si el email lleva en cualquier lugar la palabra "edu" tendría acceso y no queremos eso por lo que cambiamos el script forms.py tal y como aparece en las imagenes.
