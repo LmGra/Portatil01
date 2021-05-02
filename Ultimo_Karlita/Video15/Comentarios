@@ -1,0 +1,5 @@
+En esta ocasión editaremos los scripts como se muestran en las imágenes para almacenar los datos del formulario con el modelo que tenemos creado.
+
+#Diferencias entre blank y null, blank al formulario de algún tipo, null al formulario.
+#Para guardar los cambios es aconsejable reiniciar el servidor
+
