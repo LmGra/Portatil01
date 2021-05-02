@@ -1,0 +1,5 @@
+Ahora añadiremos nuestro formulario a las views, para ello abriremos views.py e importaremos como se muestra en la imagen.
+
+En nuestra plantilla para utilizar nuestra variable(el_form) se carga con doble llave.
+
+(Antes de arrancar el servidor, en el script forms.py cambiar max_Lenght por max_lenght ya que produce error.)
