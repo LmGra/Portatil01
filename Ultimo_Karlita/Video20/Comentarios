@@ -1,0 +1,3 @@
+Cambiamos RegForm y lo hacemos como formulario de contacto.
+
+A la hora de realizar el bucle para mostrar en el terminal cada clave valor recibido por el formulario debemos cambiar la funcion iteritems() por items().
