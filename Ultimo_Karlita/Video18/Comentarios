@@ -1,0 +1,3 @@
+Ahora cambiaremos el contexto dentro de nuestras views como se muestra en las imágenes.
+
+Para que aparezca nuestro nombre de usuario en la linea de views "if request.user.is_authenticated():" eliminar parentesis.
