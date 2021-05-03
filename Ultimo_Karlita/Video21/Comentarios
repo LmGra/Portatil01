@@ -1,0 +1,9 @@
+En este apartado trataremos de enviar correos, para ello configuramos los scripts como se muestran en las imágenes.
+
+en views.py importamos.
+from django.conf import settings
+from django.core.mail import send_mail
+
+fail_silently=false ya que no usamos una dirección de correo real y lo utilizaremos para hacer pruebas y ver los mensajes de eror.
+
+Salta el error como se muestra en las imágenes porque el correo que hemos especificado en settings.py no es real, pero nos muestra que ha intentado contactar con google para acceder a dicha cuenta.
