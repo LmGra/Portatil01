@@ -1,0 +1,6 @@
+Si no añadimos el campo de nombre se le asignará al mail de manera automática - "PERSONA"
+
+Añadimos mensaje de registro, para ello declarar las variables que se saltan en el video y se muestran en las imágenes.
+
+Si en el registro no asignamos nombre a la hora de mostrar el mensaje se hará con nuestro mail.
+Tras el registro quitamos el botón de registrar.
