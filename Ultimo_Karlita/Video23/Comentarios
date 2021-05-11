@@ -1,0 +1,17 @@
+Empezaremos a utilizar boostrap para modificar nuestras plantillas adaptables.
+
+Copiamos el código fuente de la página que muestro en imágenes.
+
+Estamos renderizando en views.py inicio.html, la cambiamos a base.html y se mostrará tal como queda en la imagen.
+
+Al llevar a cabo esta parte he tenido que arreglar la linea de código del script urls.py en el que tenía mal escrito la linea import url y linea settings.(Error en video22)
+
+En la imagen se nos muestra que está renderizada la plantilla pero no tenemos el css renderizado.
+
+Creamos una carpeta dentro de static_pro/static llamada css, ahí dentro almacenamos el css que hemos descargado y lo mismo para workaround y navbar.
+
+Creamos dos nuevos folders dentro de static, llamados img y js.
+
+Para poder utilizar las hojas de estilo de boostrap tendremos que escribir la linea que nos muestra en la documentación y se muestra en la imagen.
+
+Simulamos mismo proceso con archivos js y realizamos el collectstatic.
