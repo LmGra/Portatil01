@@ -1,0 +1,13 @@
+Vamos a renderizar el documento html dentro de la plantilla navbar.html que hemos creado escribiendo la etiqueta en base.html. con {% include "navbar.html" %}
+
+Pasamos el contenido del código jumbotron a inicio.html y hacemos un bloque de contenido en base de contenido que lo hereda y lo cerramos.
+
+En views.py volvemos a editar la linea return render(request, "inicio.html", context).
+
+Hecho esto escribiremos las tag en inicio.html para que se muestre en la página inicial nuestro formulario renderizado.
+
+A continuación renderizamos también jumbotron con nuestro formulario.
+
+Ahora cambiaremos el título con herencia de plantillas con el uso de etiquetas block.
+
+Seguimos con la creación de un nuevo fichero donde llevaremos nuestro css a este, llamado head_css.html, tras esto haremos lo mismo con el jumbotron.
