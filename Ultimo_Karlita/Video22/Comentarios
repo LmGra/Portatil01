@@ -1,0 +1,10 @@
+En este apartado configuraremos los archivos estáticos.
+En settings añadiremos la ruta de los statics folders, crearemos folders src/static_pro/static.
+
+Igual para STATIC_ROOT con la ruta padre de BASE_DIR añadiendo un directorio static_root dentro de static_env
+
+Para enviar los archivos estaticos al servidor ejecutamos python manage.py collectstatic.
+
+He añadido una linea de código import os en settings.py por que no acertaba con la ruta especifica tal como nos mostraba Karlita.
+
+
