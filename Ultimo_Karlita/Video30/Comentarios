@@ -1,0 +1,11 @@
+django-registration-redux lo utilizaremos para configurar en nuestra página web un login y registro de usuarios para llevarlo a cabo debemos descargar unas templates que nos proporciona karlita e instalamos.
+
+Añadimos contenido a Installed_apps de settings.py, número de días para la activación de la cuenta y autologeo al registrarse.
+
+Añadimos en urlpatterns como nos muestra en la documentación path('accounts/', include('registration.backends.default.urls')), e importamos include si lo vamos a usar.
+
+Ahora haremos un migrate.
+
+Para comprobarlo arrancamos el servidor y accedemos a la direccion /accounts/register/. Ojo, primero debemos deslogear como admin, si estamos como tal.
+
+Mejoraremos el estilo que tenemos para nuestra página modificando registration_form.html.
