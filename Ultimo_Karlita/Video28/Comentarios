@@ -1,0 +1,3 @@
+Creamos un archivo nuevo dentro de pd110 llamado views.py
+
+Escribimos las direcciones de las url, primero a fuego, luego llamadas por si se cambia el nombre en un futuro seguir dirigiendote a la misma ubicación.
