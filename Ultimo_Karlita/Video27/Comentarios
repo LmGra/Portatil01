@@ -1,0 +1,3 @@
+Creamos una hoja de estilo dentro de nuestro static/css llamada custom.css para modificar la alineación.
+
+Hecho eso modificamos las lineas <p> para añadirles el cambio en css y en head_css añadimos la ruta donde se encuentra custom.css, al acabar hacemos collectstatic para enviar esos archivos.
