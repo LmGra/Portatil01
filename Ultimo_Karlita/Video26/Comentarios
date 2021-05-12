@@ -1,0 +1,6 @@
+Si queremos que el ancho de la página se extienda, buscando las clases de container se les añade -fluid.
+
+Cambiamos el texto de nuestro jumbotron y añadimos la referencia de un cuadrado en el que insertaremos en un futuro reciente un vídeo.
+
+Tras esto estructuramos la página.
+
