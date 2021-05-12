@@ -1,0 +1,7 @@
+Agregamos Site_ID valor 1 para activarlo y que nos muestre la ventana login.
+
+Creamos 1 usuario nuevo, aunque no está activado.
+Con su clave activaremos al usuario en el navegador escribiendo accounts/activate/"key_user".(importante, tras la key escribir un / porque si no la brujería de karlita no se hace realidad.)
+
+Modificamos algunos de los mensajes y como se muestran al completar la activación.
+
