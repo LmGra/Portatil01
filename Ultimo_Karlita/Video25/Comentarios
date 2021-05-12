@@ -1,0 +1,4 @@
+Django Crispy forms es un paquete de django que añade o mejora el aspecto de nuestro formulario.
+
+Lo instalaremos con pip install --upgrade django-crispy-forms
+Una vez instalado lo añadimos en settings.py y hacemos las migrations.
