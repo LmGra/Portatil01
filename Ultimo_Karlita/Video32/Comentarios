@@ -1,0 +1,2 @@
+Cuando iniciamos sesión nos redirige a profile, en este caso vamos a cambiar eso de manera que se muestre tal como aparece en la imagen.
+LOGIN_REDIRECT='/'
