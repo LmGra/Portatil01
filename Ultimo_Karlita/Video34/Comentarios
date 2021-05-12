@@ -1,0 +1,3 @@
+Vamos a crear un formulario para iniciar sesión arriba de la barra de navegación, reestructurarlo y quitar lo antiguo.
+
+Hecho ese paso quitaremos el recordatorio del campo de password para que no se muestre y que tampoco se muestre el apartado de logeo superior al estar en la página de iniciar sesión.
