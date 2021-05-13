@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% load static %}
+
+{% block head_title %}Bienvenidos | {{block.super}} {% endblock %}
+
+<style>
+{% block style %}
+.jumbotron{
+	background-color: #33799C!important;
+	color:#C6E3DD!important;
+}
+.fa-5x{
+	font-size:6em !important;
+}
+
+{% endblock %}
+</style>
+
+{% block jumbotron %}
+
+{% if request.user.is_staff %}
+<table class="table">
+{% for instance in queryset %}
+<tr><td>{{ forloop.counter }}</td><td>{{ instance }}</td><td>{{ instance.nombre }}</td><td>hace {{ instance.timestamp|timesince }}</td></tr><b/r>
+{% endfor %}
+</table>
+{% else %}
+
+<div class="jumbotron">
+<div class="container">
+<div class='row'>
+	<div class=col-sm-6>
+        <h1>Probar Django</h1>
+        <p>El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña toca el saxofón detrás del palenque de paja. 1234567890</p>
+        <p>Lore ipsum blablabla..</p>
+        <p>
+          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">Únete &raquo;</a>
+        </p>
+	</div>
+	<div class='col-sm-6'><iframe width="560" height="315" src="https://www.youtube.com/embed/LwJjb18pRlo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+</div>
+</div>
+</div>
+
+{% endif %}
+{% endblock %}
+
+
+<!--<h1>Hola mundo</h1>-->
+{{titulo}}<br/>
+{{request.user}}
+<hr/>
+<br/>
+
+
+{% block content %}
+{% if not request.user.is_staff %}
+<div class="row">
+	<div class="col-sm-3 col-xs-12 pull-right">
+		{% if not user.is_authenticated %}
+		<p class="lead text-align-center">Subscribirte</p>
+		<form method="POST" action="">{% csrf_token %}
+			{{el_form|crispy}}
+		<input type="submit" value="Enviar"/>
+		</form>
+		{% else %}
+		<p class='lead text-align-center'>{{titulo}}<br/><br/><br/><i class="fa fa-hand-peace-o fa-5x" aria-hidden="true"></i></p>
+		{% endif %}
+	</div>
+	<div class='col-sm-3'>
+		<p class="lead text-align-center">Imagínate el texto.</br></br><span class="fa-stack fa-5x">
+			<i class="fa fa-circle-o-notch fa-stack-2x" ></i>
+			<i class="fab fa-affiliatetheme fa-stack-1x"></i></span></p>
+	</div>
+	<div class='col-sm-3'>
+		<p class="lead text-align-center">Imagínate el texto.</p><img src='{% static "img/obamacometacos.jpeg" %}'/>
+	</div>
+	<div class='col-sm-3'>
+		<p class="lead text-align-center">Imagínate el texto.</br></br>
+		<span class="fa-stack fa-5x">
+		<i class="fa fa-spinner fa-spin fa-stack-2x"></i>
+		<i class="fa fa-font awesome fa-stack-1x"></i>
+	</span>
+	</p>
+	</div>
+</div>
+
+<hr/>
+{% endif %}
+{% endblock %}

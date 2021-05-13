@@ -4,4 +4,4 @@ Modificamos el min-height de navbar-static a la mitad, tras esto realizamos un c
 
 Creamos la plantilla para "sobre nosotros"(about.html).
 
-
+Ojo, no escribir () tras los request como hace Karlita.

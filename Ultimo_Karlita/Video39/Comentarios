@@ -1,0 +1,11 @@
+Vamos a iterar lista de datos e importar el modelo registrado.
+
+Hacemos que al logear nos muestre los usuarios registrados, tras esto hacemos que nos liste las instancias y las cuente.
+
+Mostramos el queryset por página y mejoramos la manera en la que se presenta.
+
+Una vez visualizado en tablas ordenaremos a los usuarios por fecha.
+Añadimos un filtro para plantillas llamado timesince que nos dirá cuanto tiempo llevan registrado.
+Añadimos otro filtro que busque nombres por la letra o palabra que queramos, podemos cambiar nombre por mail para filtrarlo por mail, luego otro filtro para buscar exactamente por la palabra que escojamos.
+
+Por último quitamos el filtro de busqueda y añadimos números al lateral izquierdo de cada registrado.
