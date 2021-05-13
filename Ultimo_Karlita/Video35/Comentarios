@@ -1,0 +1,4 @@
+Vamos a mejorar el estilo de la página extendiendo el ancho de la página manteniendo el contenido, si los cambios no se realizan añadiremos !important.
+
+Cada vez que se realice un cambio en la hoja de estilo deberemos realizar un collectstatic para que se apliquen los cambios, en mi caso la hoja de estilos en la que trabajo es en custom.css.
+
