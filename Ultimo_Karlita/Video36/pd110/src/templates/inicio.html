@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% load static %}
+
+{% block head_title %}Bienvenidos | {{block.super}} {% endblock %}
+
+<style>
+{% block style %}
+.jumbotron{
+	background-color: #33799C!important;
+	color:#C6E3DD!important;
+}
+{% endblock %}
+</style>
+
+{% block jumbotron %}
+<div class="jumbotron">
+<div class="container">
+<div class='row'>
+	<div class=col-sm-6>
+        <h1>Probar Django</h1>
+        <p>El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña toca el saxofón detrás del palenque de paja. 1234567890</p>
+        <p>Lore ipsum blablabla..</p>
+        <p>
+          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">Únete &raquo;</a>
+        </p>
+	</div>
+	<div class='col-sm-6'><iframe width="560" height="315" src="https://www.youtube.com/embed/LwJjb18pRlo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+</div>
+</div>
+</div>
+{% endblock %}
+
+
+<!--<h1>Hola mundo</h1>-->
+{{titulo}}<br/>
+{{request.user}}
+<hr/>
+<br/>
+
+
+{% block content %}
+<div class="row">
+	<div class="col-sm-3 col-xs-12 pull-right">
+		<p class="lead text-align-center">{{ titulo }}</p>
+		<form method="POST" action="">{% csrf_token %}
+			{{el_form|crispy}}
+		<input type="submit" value="Registrame"/>
+		</form>
+	</div>
+	<div class='col-sm-3'>
+		<p class="lead text-align-center">Imagínate el texto.</p>
+	</div>
+	<div class='col-sm-3'>
+		<p class="lead text-align-center">Imagínate el texto.</p>
+	</div>
+	<div class='col-sm-3'>
+		<p class="lead text-align-center">Imagínate el texto.</p>
+	</div>
+</div>
+
+<hr/>
+{% endblock %}
