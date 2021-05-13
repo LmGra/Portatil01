@@ -1,0 +1,7 @@
+Modificamos el contenido para usuarios autenticados haciendo que desaparezca el primer formulario del inicio.
+
+Modificamos el min-height de navbar-static a la mitad, tras esto realizamos un collectstatic.
+
+Creamos la plantilla para "sobre nosotros"(about.html).
+
+
