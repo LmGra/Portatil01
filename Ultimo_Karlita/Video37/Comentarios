@@ -1,0 +1,12 @@
+Añadimos la imagen de obama bajo el segundo texto del inicio.html y realizamos un collectstatic.
+
+En el siguiente paso vamos a utilizar Fontawesome, para ello deberemos registrarnos en la página oficial para que nos otorguen una key la cual usaremos en nuestro head_css.html, hecho eso escogeremos un icono copiando el enlace y lo pegaremos en nuestro inicio.html y lo haremos un poco más grande.. Y luego un poco más grande otra vez añadiendo:
+.fa-5x{
+	font-size:6em !important;
+}
+
+Ahora añadiremos un icono animado en el 3er recuadro, ambos serán del mismo tamaño y estarán algo más separado del texto.
+
+Hecho esto cambiaremos el icono animado y apilaremos uno sobre otro y haremos que uno de ellos gire.
+
+
